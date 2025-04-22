@@ -1,0 +1,73 @@
+//Average of given numbers 
+<?php
+
+$a=25;
+$b=52;
+$c=26;
+$d=8;
+$e=78;
+
+$sum=$a+$b+$c+$d+$e;
+$avg=$sum/5;
+echo "Avg of 5 number is = ", $avg;
+?>
+
+//reverse counting using do while
+
+<?php
+
+$count=100;
+
+do
+{
+echo"</br>$count";
+$count--;
+
+}while($count>=1)
+
+?>
+
+//sum of digits
+
+<?php
+
+$num = 12345;
+
+$sum = 0;
+
+while ($num != 0)
+ {
+$digit = $num % 10; 
+$sum += $digit;        
+$num = (int)($num / 10); 
+}
+
+
+echo "Sum of digits is: $sum";
+?>
+
+//Loops
+
+<?php
+
+//print 1 to 10 using for loop
+
+for($i=1;$i<=10; $i++)
+echo "</br>".$i;
+
+
+//print 1 to 10 using while loop
+
+echo"Printing numbers from 1-10</br>" 
+
+$a=1;
+while($a<=10)
+{
+echo "</br>".$a;
+}
+$a++;
+
+
+?>
+
+
