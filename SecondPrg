@@ -53,3 +53,78 @@ echo="</br>50=   ",$fifty;
 echo="</br> 10=   ",$ten;
 
 ?>
+// Print name 
+<html>
+<head>
+<title>
+My Page</title>
+<body>
+<h1> PHP Page</h1>
+<?php
+echo "<font color='red'> Shobana</font></br>";
+echo "<font color='blue'> Shobana</font></br>";
+echo "<font color='yellow'> Shobana</font></br>";
+echo "<font color='cyan'> Shobana</font></br>";
+echo "<font color='pink'> Shobana</font></br>";
+
+?>
+</body>
+</html>
+
+// Day of the week
+<?php
+
+$day=5;
+
+if($day ==1)
+{
+  echo "Monday";
+}
+elseif($day==2)
+{
+ echo "Tuesday";
+}
+elseif($day==3)
+{
+ echo "Wednesday";
+}
+
+elseif($day==4)
+{
+ echo "Thursday";
+}
+
+elseif($day==5)
+{
+ echo "Friday";
+}
+elseif($day==6)
+{
+ echo "Saturday";
+}
+
+elseif($day==7)
+{
+ echo "Sunday";
+}
+else
+{
+echo "Pls enter a number between 1 and 7";
+}
+?>
+// operator
+
+<?php
+
+$a=10;
+$b=19;
+
+// addition
+
+echo "Addition of two numbers : ".($a+$b)."</br>";// dot is an contatenation operator
+
+echo "subtraction of two numbers : ",($a-$b),"</br>";
+?>
+
+
+
