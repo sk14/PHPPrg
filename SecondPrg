@@ -1,0 +1,55 @@
+
+// First Program 
+<html>
+<head>
+<title>
+My Page</title>
+<body>
+<h1> PHP Page</h1>
+<?php
+echo "Hello This is a PHP page</br>";
+print"second way";
+
+echo "</br> hello", "everyone", " have a great day</br> ";
+print " hello eveyone have a awesome day ahead";
+
+$var=print"welcome";
+
+   echo $var;
+
+?>
+</body>
+</html>
+
+//Vowels and consonants 
+<?php
+
+$ch='g';
+switch($ch){
+case 'a':
+case 'e':
+case 'i':
+case 'o':
+case 'u':
+echo " the alphabet entered is vowel";
+break;
+default: 
+echo " the alphabet entered is consonant";
+}
+?>
+
+//Denomnation
+<?php
+
+$amount=1268;
+$hundr=(int)($amount,100);
+$fifty=(int)($amount,50);
+
+$ten=(int)($amount,10);
+
+echo "</br>100=  ",$hundr;
+echo="</br>50=   ",$fifty;
+
+echo="</br> 10=   ",$ten;
+
+?>
