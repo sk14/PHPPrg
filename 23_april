@@ -1,0 +1,60 @@
+//Pattern
+
+<?php
+
+for($i=7;$i>=1;$i--)
+{
+   for($j=1;$j<=$i;$j++)
+     { 
+         echo "*";
+       }
+     echo "</br>";
+}
+
+?>
+//pattern2
+
+<?php
+
+$r=7;
+
+for($i=0; $i < $r ;$i++)
+{
+   for($j=0; $j < $i;$j++)
+     { 
+         echo " ";
+       }
+     for($k=$i; $k < $r; $k++)
+      {
+         echo "*";
+       }
+    echo "</br>";
+}
+
+?>
+// Total no of words in a string
+<?php
+
+$str="Hello this is an String example";
+
+$len=strlen($str);
+$nwrd= false;
+$count=0;
+
+for($i=0; $i < $len; $i++)
+{
+     $ch=$str[$i];
+
+   if($ch!=' ' && $nwrd == false)
+   {
+     $nwrd=true;
+      $count++;
+   }elseif($ch== ' ')
+    {
+       $nwrd = false;
+      }
+}
+
+echo " Total number of words $count";
+
+?>
