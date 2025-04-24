@@ -1,0 +1,109 @@
+//swapping two numbers
+<?php
+
+$str="Hello this is an String example";
+
+$len=strlen($str);
+$nwrd= false;
+$count=0;
+
+for($i=0; $i < $len; $i++)
+{
+     $ch=$str[$i];
+
+   if($ch!=' ' && $nwrd == false)
+   {
+     $nwrd=true;
+      $count++;
+   }elseif($ch== ' ')
+    {
+       $nwrd = false;
+      }
+}
+
+echo " Total number of words $count";
+?>
+//factorial- recursive function
+<?php
+
+function factorial($n)
+{
+   
+ if ($n <= 1)
+ {
+       
+ return 1;
+ }
+
+ else
+ {
+   return $n * factorial($n - 1);
+  }
+}
+
+echo "Factorial of 3 is: " . factorial(3) . "</br>";
+echo "Factorial of 8 is: " . factorial(8) . "</br>";
+
+?>
+//Type 3 function
+<?php
+
+ // type 3 function
+function add($a,$b)
+{
+
+$sum=$a+$b;
+
+return $sum;
+
+}
+
+ $a=58;
+ $b=96;
+
+$c=add($a,$b);
+
+echo 
+?>
+//type 2 function
+<?php
+
+ // type 2 function
+function add($a,$b)
+{
+
+$sum=$a+$b;
+
+echo "sum= ".$sum;
+}
+
+ $a=58;
+ $b=96;
+
+add($a,$b);
+?>
+//function
+<?php
+ 
+function display()
+{
+  echo " Welcome to PHP TTT";
+}
+
+display();
+?>
+//addition using function
+<?php
+ 
+function add()
+{
+ $a=58;
+ $b=96;
+
+$sum=$a+$b;
+
+echo "sum= ".$sum;
+}
+
+add();
+?>
